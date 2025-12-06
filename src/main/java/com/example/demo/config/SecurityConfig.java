@@ -53,9 +53,7 @@ public class SecurityConfig {
 				CorsConfiguration cfg = new CorsConfiguration();
 				cfg.setAllowedOrigins(Arrays.asList(
 						"http://localhost:3000",
-						"http://localhost:5173",
-						"https://zosh-pos.vercel.app",
-						"https://pos-sytem-bcs6.vercel.app"
+						"http://localhost:5173"
 				));
 				cfg.setAllowedMethods(Collections.singletonList("*"));
 				cfg.setAllowCredentials(true);
